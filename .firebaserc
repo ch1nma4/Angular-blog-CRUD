@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "blog-it-1ca04": {
+      "hosting": {
+        "blog-dashboard": [
+          "blog-it-1ca04"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "blog-it-1ca04"
+  }
+}

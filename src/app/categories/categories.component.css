@@ -1,0 +1,12 @@
+.card{
+    background-color: var(--secondary-color);
+}
+
+.btn-sub{
+    height: 48px;
+    width: 200px;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    background-color: var(--primary-color);
+}
