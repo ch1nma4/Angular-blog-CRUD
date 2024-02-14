@@ -1,5 +1,10 @@
 <header class="navbar navbar-expand-lg fixed-top bg-white">
     <div class="container justify-content-center">
-        <a href="#" class="site-logo"> BLOG-IT </a>
+        <a href="#" class="site-logo mt-3"> BLOG-IT </a>
+    </div>
+
+    <div class="d-flex justify-content-between" *ngIf="isLoggedIn$  | async">
+        <a href="#" class="m-2 mt-4" style="text-decoration: none; color: var(--primary-color);"> {{ userEmail }} </a>
+        <button class="btn text-theme-primary m-3" (click)="onlogout()"> Logout </button>
     </div>
 </header>
